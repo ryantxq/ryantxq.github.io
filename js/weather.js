@@ -16,20 +16,21 @@ WIDGET = {
       "modules": "01234",
       "background": "5",
       "tmpColor": "FFFFFF",
-      "tmpSize": "16",
+      "tmpSize": "12",
       "cityColor": "FFFFFF",
-      "citySize": "16",
+      "citySize": "12",
       "aqiColor": "FFFFFF",
-      "aqiSize": "16",
-      "weatherIconSize": "24",
-      "alertIconSize": "18",
+      "aqiSize": "12",
+      "weatherIconSize": "18",
+      "alertIconSize": "14",
       "padding": "10px 10px 10px 10px",
-      "shadow": "0",
+      "shadow": "1",
       "language": "auto",
+      "borderRadius": "10",
       "fixed": "false",
-      "vertical": "top",
+      "vertical": "center",
       "horizontal": "left",
-      "key": "d6ba0fe1db8a4a0caa5d20594c994135"
+      "key": "2928a86852eb49a2b95f96a3eb475d17"
     }
   }
 

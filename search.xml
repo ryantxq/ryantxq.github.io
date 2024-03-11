@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>测试页</title>
+    <url>/2024/03/07/%E6%B5%8B%E8%AF%95%E9%A1%B5/</url>
+    <content><![CDATA[<h1 id="模型测试"><a href="#模型测试" class="headerlink" title="模型测试"></a>模型测试</h1><p>这个是测试模型</p>
+<iframe title="Character_Refer_Sap" width="100%" height=480px frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/8d697894c4b94712a62b07e37ce3ba63/embed?autospin=1&autostart=1"> </iframe>]]></content>
+  </entry>
+  <entry>
     <title>解决Hexo部署时文章和页面插入图片不显示的问题</title>
     <url>/2024/03/10/%E8%A7%A3%E5%86%B3Hexo%E9%83%A8%E7%BD%B2%E6%97%B6%E6%96%87%E7%AB%A0%E5%92%8C%E9%A1%B5%E9%9D%A2%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87%E4%B8%8D%E6%98%BE%E7%A4%BA%E7%9A%84%E9%97%AE%E9%A2%98/</url>
     <content><![CDATA[<p>在Hexo部署时，经常会发现文章和页面内插入的本地图片无法显示，通常是使用<code>hexo g</code>生成网页源代码时解析路径出现问题，导致源代码内对文件引用的路径不对。<br><strong>建议使用官方推荐的资源文件夹模式管理本地图片文件（其他文件也可以），配合使用<code>&lt;img scr=&quot;url&quot;&gt;</code>和相对路径的方式插入图片</strong></p>
@@ -25,11 +31,5 @@
         <tag>Hexo</tag>
         <tag>随想</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>测试页</title>
-    <url>/2024/03/07/%E6%B5%8B%E8%AF%95%E9%A1%B5/</url>
-    <content><![CDATA[<h1 id="模型测试"><a href="#模型测试" class="headerlink" title="模型测试"></a>模型测试</h1><p>这个是测试模型</p>
-<iframe title="Character_Refer_Sap" width="100%" height=480px frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/8d697894c4b94712a62b07e37ce3ba63/embed?autospin=1&autostart=1"> </iframe>]]></content>
   </entry>
 </search>
