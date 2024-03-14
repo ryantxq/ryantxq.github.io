@@ -182,33 +182,94 @@
                     <div class="fade-in-down-animation">
     <div class="archives-container">
         <div class="archives-timeline border-box">
-            
-<div class="archive-list-container border-box">
-    
-        <section class="archive-item border-box">
-            <div class="archive-item-header border-box">
-                <span class="archive-year">2024</span>
-            </div>
-            <ul class="archive-item-body border-box">
-                
-                    <li class="post-item border-box">
-                        <span class="post-date border-box">03-10</span>
-                        <a class="post-title border-box text-ellipsis"
-                           href="/2024/03/10/%E8%A7%A3%E5%86%B3Hexo%E9%83%A8%E7%BD%B2%E6%97%B6%E6%96%87%E7%AB%A0%E5%92%8C%E9%A1%B5%E9%9D%A2%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87%E4%B8%8D%E6%98%BE%E7%A4%BA%E7%9A%84%E9%97%AE%E9%A2%98/"
-                        >解决Hexo部署时文章和页面插入图片不显示的问题</a>
-                    </li>
-                
-                    <li class="post-item border-box">
-                        <span class="post-date border-box">03-07</span>
-                        <a class="post-title border-box text-ellipsis"
-                           href="/2024/03/07/%E6%B5%8B%E8%AF%95%E9%A1%B5/"
-                        >测试页</a>
-                    </li>
-                
-            </ul>
-        </section>
-    
-</div>
+            $archive-year-font-size = 1.6rem
+$post-title-font-size = 1.2rem
+$post-date-font-size = 1rem
+$post-date-width = 3.6rem
+$post-item-padding = 1.2rem
+$timeline-circle-width = 0.6rem
+
+.archive-list-container {
+
+  .archive-item {
+    margin-bottom var(--components-spacing)
+
+    &:last-child {
+      margin-bottom 0
+    }
+
+    .archive-item-header {
+      margin-bottom 0.8rem
+
+      .archive-year {
+        margin-right 6px
+        color var(--text-color-2)
+        font-weight 600
+        font-size $archive-year-font-size
+
+        +keep-tablet() {
+          font-size $archive-year-font-size * 0.9
+        }
+      }
+    }
+
+
+    .archive-item-body {
+      padding-left $post-item-padding
+
+      .post-item {
+        display flex
+        align-items center
+        justify-content space-between
+        width 100%
+        padding ($post-item-padding * 0.68) 0 ($post-item-padding * 0.68) $post-item-padding
+        font-size 1rem
+        border-left 1px dashed var(--border-color)
+
+        &::before {
+          position absolute
+          top 50%
+          left -($timeline-circle-width * 0.5)
+          z-index $z-index-1
+          box-sizing border-box
+          width $timeline-circle-width
+          height $timeline-circle-width
+          background var(--text-color-5)
+          border-radius 50%
+          transform translateY(-50%)
+          content ''
+        }
+
+
+        &:hover {
+          &::before {
+            background var(--text-color-4)
+          }
+
+
+          a.post-title {
+            color var(--primary-color)
+          }
+        }
+
+        .post-date {
+          width $post-date-width
+          margin-right $post-item-padding
+          color var(--text-color-3)
+          font-size $post-date-font-size
+        }
+
+
+        a.post-title {
+          width 'calc(100% - %s)' % $post-date-width
+          color var(--text-color-3)
+        }
+      }
+    }
+  }
+}
+
+
 
         </div>
     </div>
