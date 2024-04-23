@@ -1,6 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>解决Hexo部署时文章和页面插入图片不显示的问题</title>
+    <url>/2024/03/10/%E8%A7%A3%E5%86%B3Hexo%E9%83%A8%E7%BD%B2%E6%97%B6%E6%96%87%E7%AB%A0%E5%92%8C%E9%A1%B5%E9%9D%A2%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87%E4%B8%8D%E6%98%BE%E7%A4%BA%E7%9A%84%E9%97%AE%E9%A2%98/</url>
+    <content><![CDATA[<p>在Hexo部署时，经常会发现文章和页面内插入的本地图片无法显示，通常是使用<code>hexo g</code>生成网页源代码时解析路径出现问题，导致源代码内对文件引用的路径不对。<br><strong>建议使用官方推荐的资源文件夹模式管理本地图片文件（其他文件也可以），配合使用<code>&lt;img scr=&quot;url&quot;&gt;</code>和相对路径的方式插入图片</strong></p>
+<p><strong>开启资源文件夹模式</strong></p>
+<p>在<code>_config.yml</code>文件中如下配置（若没有marked项自行添加）：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">post_asset_folder: true</span><br><span class="line">marked:</span><br><span class="line">    prependRoot: true</span><br><span class="line">    postAsset: true</span><br></pre></td></tr></table></figure>
+<p>开启后每次在使用<code>hexo new post &lt;titel&gt;</code>创建文章时，会同步在<code>_posts</code>文件夹下创建一个文章同名文件夹用来管理文章内的图片等文件,在文章内插入的图片都应保存在此文件夹下进行管理.</p>
+<p>在文章内进行引用时，可使用以下三种方式：</p>
+<ol>
+<li><code>![image](img.jpg)</code></li>
+<li><code>![image](.\titel\img.jpg)</code></li>
+<li><code>&lt;img scr=&quot;.\titel\img.jpg&quot;&gt;</code><br><strong>其中第3种方式不仅在文章Post和页面Post都有效，而且可以设置图片属性，例如<code>&lt;img scr=&quot;.\titel\img，jpg&quot; width=&quot;100%&quot; height=128px&gt;</code>来限制高度，因此优先推荐使用第3中方式。</strong></li>
+</ol>
+<p><strong>说明：</strong></p>
+<ul>
+<li>第1种方式仅在开启了资源文件夹模式，且在文章Post中才有效。因为开启了资源文件夹模式，会在解析时会自动在文件路径前加上文章的资源文件夹路径，因此可以正确访问文件，但前提是将图片等文件放在了文章对应的资源文件夹内进行管理。而在页面Page中插入图片时，这种方式就会失效，因为创建页面时，不会自动创建资源文件夹，即使手动创建同名资源文件夹，且将图片等文件放入进行管理，也无法自动解析文件路径。<strong>因此不推荐使用这种方式。</strong><br></li>
+<li>第2种方式是使用原始的MarkDown嵌入图片语法，并且使用相对路径引用，例如<code>![image](.\文章名\MoonStone.jpg)</code>，这里的文章名应该跟生成的资源文件夹名称一样，如果调整了文章名生成模板，请注意。这样在解析后图片路径依旧为<code>.\文章名\MoonStone.jpg</code>，因此可以正确访问到资源文件夹下的图片。这种方式对页面Page插入图片同样有效，但无法调整图片属性，<strong>因此也不推荐。</strong><br></li>
+<li>第3中方式是直接使用图像标签<code>&lt;img scr=&quot;.\titel\img.jpg&quot;&gt;</code>结合相对路径来插入图片，这种方式不仅可以任意设置图片属性，而且在页面Page插入时同样有效，因此不论在写文章还是页面时都有一致语法。而且如果你没有使用资源文件夹进行图片等文件管理，也只需要将相对路径改为图片相对路径即可。<strong>因此推荐使用第3中方式。</strong></li>
+</ul>
+]]></content>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>随想</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>【栱】三等材华栱</title>
     <url>/2024/04/06/%E4%B8%89%E7%AD%89%E6%9D%90%E5%8D%8E%E6%A0%B1/</url>
     <content><![CDATA[<h3 id="华栱"><a href="#华栱" class="headerlink" title="华栱"></a>华栱</h3><ul>
@@ -47,70 +73,6 @@
       </tags>
   </entry>
   <entry>
-    <title>【枓】三等材栌枓</title>
-    <url>/2024/04/14/%E3%80%90%E6%9E%93%E3%80%91%E4%B8%89%E7%AD%89%E6%9D%90%E6%A0%8C%E6%9E%93/</url>
-    <content><![CDATA[<h3 id="栌枓"><a href="#栌枓" class="headerlink" title="栌枓"></a>栌枓</h3><ul>
-<li>栌枓是铺坐最下层的大斗，安装在柱头之上。（宋以前通常直接安放在柱头之上，宋及以后安装在普拍枋之上，这一特征通常可作为断代标志）<br></li>
-<li>栌枓高20分°，长宽32分°。如果栌枓安装在角柱上，则长宽为36分°。<br></li>
-<li>其中上8分°为枓耳，中4分°为枓平，下8分°为枓欹（qī）。<br></li>
-<li>枓开口宽10分°，深8分°。（如果出跳，则采用十字开口，四个枓耳；若不出跳，则顺着枓身方向（出檐方向）开口，两个枓耳）<br></li>
-<li>枓底部四面个向里杀4分°，斜向内凹1分°<br></li>
-<li>栌枓在出跳方向开口上还留有隔口包耳，隔口包耳高4分°，厚3分°。</li>
-</ul>
-<div class="sketchfab-embed-wrapper"> <iframe title="三等材-栌枓" frameborder="0" width="100%" height=480px allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share width="640" height="480" src="https://sketchfab.com/models/57c0d19d2474447c9a267fa810485e9f/embed?autospin=1&autostart=1&preload=1&ui_theme=dark"> </iframe> </div>
-
-<img  
-                       lazyload
-                       alt="image"
-                       data-src="/2024/04/14/%E3%80%90%E6%9E%93%E3%80%91%E4%B8%89%E7%AD%89%E6%9D%90%E6%A0%8C%E6%9E%93/%E4%B8%89%E7%AD%89%E6%9D%90-%E6%A0%8C%E6%9E%93-%E6%A0%87%E6%B3%A8.png"
-                        class="" title="栌枓"
-                 >
-
-<blockquote>
-<br>
- 参考资料：
-
-<p>《营造法式注释（卷上）》，梁思成<br>《&lt;营造法式解读&gt;解读（修订版）》，盘谷西、何建中<br><br></p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>营造法式</category>
-        <category>枓</category>
-      </categories>
-      <tags>
-        <tag>《营造法式》</tag>
-        <tag>斗栱</tag>
-        <tag>宋构</tag>
-        <tag>栌枓</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>解决Hexo部署时文章和页面插入图片不显示的问题</title>
-    <url>/2024/03/10/%E8%A7%A3%E5%86%B3Hexo%E9%83%A8%E7%BD%B2%E6%97%B6%E6%96%87%E7%AB%A0%E5%92%8C%E9%A1%B5%E9%9D%A2%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87%E4%B8%8D%E6%98%BE%E7%A4%BA%E7%9A%84%E9%97%AE%E9%A2%98/</url>
-    <content><![CDATA[<p>在Hexo部署时，经常会发现文章和页面内插入的本地图片无法显示，通常是使用<code>hexo g</code>生成网页源代码时解析路径出现问题，导致源代码内对文件引用的路径不对。<br><strong>建议使用官方推荐的资源文件夹模式管理本地图片文件（其他文件也可以），配合使用<code>&lt;img scr=&quot;url&quot;&gt;</code>和相对路径的方式插入图片</strong></p>
-<p><strong>开启资源文件夹模式</strong></p>
-<p>在<code>_config.yml</code>文件中如下配置（若没有marked项自行添加）：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">post_asset_folder: true</span><br><span class="line">marked:</span><br><span class="line">    prependRoot: true</span><br><span class="line">    postAsset: true</span><br></pre></td></tr></table></figure>
-<p>开启后每次在使用<code>hexo new post &lt;titel&gt;</code>创建文章时，会同步在<code>_posts</code>文件夹下创建一个文章同名文件夹用来管理文章内的图片等文件,在文章内插入的图片都应保存在此文件夹下进行管理.</p>
-<p>在文章内进行引用时，可使用以下三种方式：</p>
-<ol>
-<li><code>![image](img.jpg)</code></li>
-<li><code>![image](.\titel\img.jpg)</code></li>
-<li><code>&lt;img scr=&quot;.\titel\img.jpg&quot;&gt;</code><br><strong>其中第3种方式不仅在文章Post和页面Post都有效，而且可以设置图片属性，例如<code>&lt;img scr=&quot;.\titel\img，jpg&quot; width=&quot;100%&quot; height=128px&gt;</code>来限制高度，因此优先推荐使用第3中方式。</strong></li>
-</ol>
-<p><strong>说明：</strong></p>
-<ul>
-<li>第1种方式仅在开启了资源文件夹模式，且在文章Post中才有效。因为开启了资源文件夹模式，会在解析时会自动在文件路径前加上文章的资源文件夹路径，因此可以正确访问文件，但前提是将图片等文件放在了文章对应的资源文件夹内进行管理。而在页面Page中插入图片时，这种方式就会失效，因为创建页面时，不会自动创建资源文件夹，即使手动创建同名资源文件夹，且将图片等文件放入进行管理，也无法自动解析文件路径。<strong>因此不推荐使用这种方式。</strong><br></li>
-<li>第2种方式是使用原始的MarkDown嵌入图片语法，并且使用相对路径引用，例如<code>![image](.\文章名\MoonStone.jpg)</code>，这里的文章名应该跟生成的资源文件夹名称一样，如果调整了文章名生成模板，请注意。这样在解析后图片路径依旧为<code>.\文章名\MoonStone.jpg</code>，因此可以正确访问到资源文件夹下的图片。这种方式对页面Page插入图片同样有效，但无法调整图片属性，<strong>因此也不推荐。</strong><br></li>
-<li>第3中方式是直接使用图像标签<code>&lt;img scr=&quot;.\titel\img.jpg&quot;&gt;</code>结合相对路径来插入图片，这种方式不仅可以任意设置图片属性，而且在页面Page插入时同样有效，因此不论在写文章还是页面时都有一致语法。而且如果你没有使用资源文件夹进行图片等文件管理，也只需要将相对路径改为图片相对路径即可。<strong>因此推荐使用第3中方式。</strong></li>
-</ul>
-]]></content>
-      <tags>
-        <tag>Hexo</tag>
-        <tag>随想</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>【栱】三等材泥道栱</title>
     <url>/2024/04/18/%E3%80%90%E6%A0%B1%E3%80%91%E4%B8%89%E7%AD%89%E6%9D%90%E6%B3%A5%E9%81%93%E6%A0%B1/</url>
     <content><![CDATA[<h3 id="泥道栱"><a href="#泥道栱" class="headerlink" title="泥道栱"></a>泥道栱</h3><ul>
@@ -149,6 +111,44 @@
         <tag>斗栱</tag>
         <tag>宋构</tag>
         <tag>泥道栱</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【枓】三等材栌枓</title>
+    <url>/2024/04/14/%E3%80%90%E6%9E%93%E3%80%91%E4%B8%89%E7%AD%89%E6%9D%90%E6%A0%8C%E6%9E%93/</url>
+    <content><![CDATA[<h3 id="栌枓"><a href="#栌枓" class="headerlink" title="栌枓"></a>栌枓</h3><ul>
+<li>栌枓是铺坐最下层的大斗，安装在柱头之上。（宋以前通常直接安放在柱头之上，宋及以后安装在普拍枋之上，这一特征通常可作为断代标志）<br></li>
+<li>栌枓高20分°，长宽32分°。如果栌枓安装在角柱上，则长宽为36分°。<br></li>
+<li>其中上8分°为枓耳，中4分°为枓平，下8分°为枓欹（qī）。<br></li>
+<li>枓开口宽10分°，深8分°。（如果出跳，则采用十字开口，四个枓耳；若不出跳，则顺着枓身方向（出檐方向）开口，两个枓耳）<br></li>
+<li>枓底部四面个向里杀4分°，斜向内凹1分°<br></li>
+<li>栌枓在出跳方向开口上还留有隔口包耳，隔口包耳高4分°，厚3分°。</li>
+</ul>
+<div class="sketchfab-embed-wrapper"> <iframe title="三等材-栌枓" frameborder="0" width="100%" height=480px allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share width="640" height="480" src="https://sketchfab.com/models/57c0d19d2474447c9a267fa810485e9f/embed?autospin=1&autostart=1&preload=1&ui_theme=dark"> </iframe> </div>
+
+<img  
+                       lazyload
+                       alt="image"
+                       data-src="/2024/04/14/%E3%80%90%E6%9E%93%E3%80%91%E4%B8%89%E7%AD%89%E6%9D%90%E6%A0%8C%E6%9E%93/%E4%B8%89%E7%AD%89%E6%9D%90-%E6%A0%8C%E6%9E%93-%E6%A0%87%E6%B3%A8.png"
+                        class="" title="栌枓"
+                 >
+
+<blockquote>
+<br>
+ 参考资料：
+
+<p>《营造法式注释（卷上）》，梁思成<br>《&lt;营造法式解读&gt;解读（修订版）》，盘谷西、何建中<br><br></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>营造法式</category>
+        <category>枓</category>
+      </categories>
+      <tags>
+        <tag>《营造法式》</tag>
+        <tag>斗栱</tag>
+        <tag>宋构</tag>
+        <tag>栌枓</tag>
       </tags>
   </entry>
   <entry>
