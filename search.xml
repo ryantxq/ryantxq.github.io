@@ -152,6 +152,12 @@
       </tags>
   </entry>
   <entry>
+    <title>测试页</title>
+    <url>/2024/03/07/%E6%B5%8B%E8%AF%95%E9%A1%B5/</url>
+    <content><![CDATA[<h1 id="模型测试"><a href="#模型测试" class="headerlink" title="模型测试"></a>模型测试</h1><p>这个是测试模型</p>
+<iframe title="Character_Refer_Sap" width="100%" height=480px frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/8d697894c4b94712a62b07e37ce3ba63/embed?autospin=1&autostart=1"> </iframe>]]></content>
+  </entry>
+  <entry>
     <title>【枓】交互枓、齐心枓、散枓</title>
     <url>/2024/05/05/%E3%80%90%E6%9E%93%E3%80%91%E4%BA%A4%E4%BA%92%E6%9E%93%E3%80%81%E9%BD%90%E5%BF%83%E6%9E%93%E3%80%81%E6%95%A3%E6%9E%93/</url>
     <content><![CDATA[<h2 id="交互枓、齐心枓、散枓"><a href="#交互枓、齐心枓、散枓" class="headerlink" title="交互枓、齐心枓、散枓"></a>交互枓、齐心枓、散枓</h2><div class="sketchfab-embed-wrapper"> <iframe title="枓-齐心枓-交互枓-散枓" frameborder="0" width="100%" height=240px allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share width="640" height="240" src="https://sketchfab.com/models/f81bceeb75754f1d97c17461d6a16fbc/embed?autospin=1&autostart=1&preload=1"> </iframe> </div>
@@ -209,6 +215,10 @@
                  >
 
 <p><strong>总结来说，枓的类型通常由所处位置来决定</strong>。其中位于栱心的叫齐心枓，通常顺身开口两耳。位于华栱或昂这类出跳构件两端的栱叫交互枓，通常十字开口。其他位于栱两端的栱皆为散枓，通常十字开口。但一些特殊情况下枓的形态都会随情况变化，如齐心枓若用作平坐出头木下时，因为上承十字构件，则十字开口。如交互枓上承替木时（单斗只替），仅需顺身开口；或用在梁栿下时，横用，且长度随栿宽增加，且单独称为交栿枓；或当华栱出跳上用偷心造时，则可使用散枓替代交互枓。</p>
+<blockquote>
+<p> 参考资料：</p>
+<p>《营造法式注释（卷上）》，梁思成<br>《&lt;营造法式解读&gt;解读（修订版）》，盘谷西、何建中</p>
+</blockquote>
 ]]></content>
       <categories>
         <category>营造法式</category>
@@ -222,11 +232,5 @@
         <tag>齐心枓</tag>
         <tag>散枓</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>测试页</title>
-    <url>/2024/03/07/%E6%B5%8B%E8%AF%95%E9%A1%B5/</url>
-    <content><![CDATA[<h1 id="模型测试"><a href="#模型测试" class="headerlink" title="模型测试"></a>模型测试</h1><p>这个是测试模型</p>
-<iframe title="Character_Refer_Sap" width="100%" height=480px frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/8d697894c4b94712a62b07e37ce3ba63/embed?autospin=1&autostart=1"> </iframe>]]></content>
   </entry>
 </search>
