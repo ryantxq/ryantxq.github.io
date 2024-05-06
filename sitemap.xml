@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://ryantxq.github.io/photos/index.html</loc>
+    
+    <lastmod>2024-05-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://ryantxq.github.io/categories/index.html</loc>
     
     <lastmod>2024-05-06</lastmod>
@@ -178,14 +187,14 @@
   </url>
   
   <url>
-    <loc>https://ryantxq.github.io/categories/%E8%90%A5%E9%80%A0%E6%B3%95%E5%BC%8F/%E6%A0%B1/</loc>
+    <loc>https://ryantxq.github.io/categories/%E8%90%A5%E9%80%A0%E6%B3%95%E5%BC%8F/%E6%9E%93/</loc>
     <lastmod>2024-05-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://ryantxq.github.io/categories/%E8%90%A5%E9%80%A0%E6%B3%95%E5%BC%8F/%E6%9E%93/</loc>
+    <loc>https://ryantxq.github.io/categories/%E8%90%A5%E9%80%A0%E6%B3%95%E5%BC%8F/%E6%A0%B1/</loc>
     <lastmod>2024-05-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
