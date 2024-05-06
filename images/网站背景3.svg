@@ -1,0 +1,36 @@
+<svg id="参考图" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 2301 1320">
+  <defs>
+    <image id="image" width="1500" height="1000" xlink:href="002.png"/>
+    <image id="image-2" width="1500" height="1000" xlink:href="004.png"/>
+    <image id="image-3" width="1500" height="1000" xlink:href="008.png"/>
+    <image id="image-4" width="1500" height="1000" xlink:href="003.png"/>
+    <image id="image-5" width="1500" height="1000" xlink:href="010.png"/>
+    <image id="image-6" width="1500" height="1000" xlink:href="005.png"/>
+    <image id="image-7" width="1500" height="1000" xlink:href="013.png"/>
+    <image id="image-8" width="1500" height="1000" xlink:href="006.png"/>
+  </defs>
+  <image width="1500" height="1000" transform="translate(316 207) scale(0.24)" xlink:href="001.png"/>
+  <use transform="translate(1226 420) scale(0.24)" xlink:href="#image-7"/>
+  <use transform="translate(1449 912) scale(0.24)" xlink:href="#image"/>
+  <use transform="translate(1125 778) scale(0.24)" xlink:href="#image-4"/>
+  <use transform="translate(701 892) scale(0.24)" xlink:href="#image-2"/>
+  <use transform="translate(1449 228) scale(0.24)" xlink:href="#image-6"/>
+  <use transform="translate(180 922) scale(0.24)" xlink:href="#image-8"/>
+  <image width="1500" height="1000" transform="translate(970 195) scale(0.24)" xlink:href="007.png"/>
+  <use transform="translate(571 370) scale(0.24)" xlink:href="#image-3"/>
+  <image width="1500" height="1000" transform="translate(829 540) scale(0.24)" xlink:href="009.png"/>
+  <use transform="translate(298 696) scale(0.24)" xlink:href="#image-5"/>
+  <image width="1500" height="1000" transform="translate(1750 162) scale(0.24)" xlink:href="011.png"/>
+  <image width="1500" height="1000" transform="translate(1786 717) scale(0.24)" xlink:href="012.png"/>
+  <use transform="translate(0 672) scale(0.24)" xlink:href="#image"/>
+  <use transform="translate(1405) scale(0.24)" xlink:href="#image-2"/>
+  <use transform="translate(1406 642) scale(0.24)" xlink:href="#image-3"/>
+  <use transform="translate(527 792) scale(0.24)" xlink:href="#image-4"/>
+  <use transform="translate(676 120) scale(0.24)" xlink:href="#image-5"/>
+  <use transform="translate(241 468) scale(0.24)" xlink:href="#image-6"/>
+  <use transform="translate(976 1080) scale(0.24)" xlink:href="#image-7"/>
+  <use transform="translate(1765 995) scale(0.24)" xlink:href="#image-5"/>
+  <use transform="translate(1941 426) scale(0.24)" xlink:href="#image-7"/>
+  <use transform="translate(1585 447) scale(0.24)" xlink:href="#image-8"/>
+  <use transform="translate(88 75) scale(0.24)" xlink:href="#image-3"/>
+</svg>
