@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://ryantxq.github.io/categories/index.html</loc>
+    
+    <lastmod>2024-05-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://ryantxq.github.io/2024/04/18/%E3%80%90%E6%A0%B1%E3%80%91%E4%B8%89%E7%AD%89%E6%9D%90%E6%B3%A5%E9%81%93%E6%A0%B1/</loc>
     
     <lastmod>2024-05-06</lastmod>
@@ -73,15 +82,6 @@
     <priority>0.6</priority>
   </url>
   
-  <url>
-    <loc>https://ryantxq.github.io/categories/index.html</loc>
-    
-    <lastmod>2024-03-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
 
   <url>
     <loc>https://ryantxq.github.io/</loc>
@@ -90,20 +90,6 @@
     <priority>1.0</priority>
   </url>
 
-  
-  <url>
-    <loc>https://ryantxq.github.io/tags/Hexo/</loc>
-    <lastmod>2024-05-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://ryantxq.github.io/tags/%E9%9A%8F%E6%83%B3/</loc>
-    <lastmod>2024-05-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
   
   <url>
     <loc>https://ryantxq.github.io/tags/%E3%80%8A%E8%90%A5%E9%80%A0%E6%B3%95%E5%BC%8F%E3%80%8B/</loc>
@@ -120,7 +106,7 @@
   </url>
   
   <url>
-    <loc>https://ryantxq.github.io/tags/%E5%8D%8E%E6%A0%B1/</loc>
+    <loc>https://ryantxq.github.io/tags/%E6%A0%8C%E6%9E%93/</loc>
     <lastmod>2024-05-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -134,7 +120,21 @@
   </url>
   
   <url>
-    <loc>https://ryantxq.github.io/tags/%E6%A0%8C%E6%9E%93/</loc>
+    <loc>https://ryantxq.github.io/tags/Hexo/</loc>
+    <lastmod>2024-05-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://ryantxq.github.io/tags/%E9%9A%8F%E6%83%B3/</loc>
+    <lastmod>2024-05-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://ryantxq.github.io/tags/%E5%8D%8E%E6%A0%B1/</loc>
     <lastmod>2024-05-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

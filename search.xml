@@ -1,6 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>【枓】三等材栌枓</title>
+    <url>/2024/04/14/%E3%80%90%E6%9E%93%E3%80%91%E4%B8%89%E7%AD%89%E6%9D%90%E6%A0%8C%E6%9E%93/</url>
+    <content><![CDATA[<h3 id="栌枓"><a href="#栌枓" class="headerlink" title="栌枓"></a>栌枓</h3><div class="sketchfab-embed-wrapper"> <iframe title="三等材-栌枓" frameborder="0" width="100%" height=240px allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share width="640" height="480" src="https://sketchfab.com/models/57c0d19d2474447c9a267fa810485e9f/embed?autospin=1&autostart=1&preload=1&ui_theme=dark"> </iframe> </div>
+
+<ul>
+<li>栌枓是铺坐最下层的大斗，安装在柱头之上。（宋以前通常直接安放在柱头之上，宋及以后安装在普拍枋之上，这一特征通常可作为断代标志）<br></li>
+<li>栌枓高20分°，长宽32分°。如果栌枓安装在角柱上，则长宽为36分°。<br></li>
+<li>其中上8分°为枓耳，中4分°为枓平，下8分°为枓欹（qī）。<br></li>
+<li>枓开口宽10分°，深8分°。（如果出跳，则采用十字开口，四个枓耳；若不出跳，则顺着枓身方向（出檐方向）开口，两个枓耳）<br></li>
+<li>枓底部四面个向里杀4分°，斜向内凹1分°<br></li>
+<li>栌枓在出跳方向开口上还留有隔口包耳，隔口包耳高4分°，厚3分°。</li>
+</ul>
+<img  
+                       lazyload
+                       alt="image"
+                       data-src="/2024/04/14/%E3%80%90%E6%9E%93%E3%80%91%E4%B8%89%E7%AD%89%E6%9D%90%E6%A0%8C%E6%9E%93/%E4%B8%89%E7%AD%89%E6%9D%90-%E6%A0%8C%E6%9E%93-%E6%A0%87%E6%B3%A8.png"
+                        class="" title="栌枓"
+                 >
+
+<blockquote>
+<p> 参考资料：</p>
+<p>《营造法式注释（卷上）》，梁思成<br>《&lt;营造法式解读&gt;解读（修订版）》，盘谷西、何建中</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>营造法式</category>
+        <category>枓</category>
+      </categories>
+      <tags>
+        <tag>《营造法式》</tag>
+        <tag>斗栱</tag>
+        <tag>栌枓</tag>
+        <tag>宋构</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>解决Hexo部署时文章和页面插入图片不显示的问题</title>
     <url>/2024/03/10/%E8%A7%A3%E5%86%B3Hexo%E9%83%A8%E7%BD%B2%E6%97%B6%E6%96%87%E7%AB%A0%E5%92%8C%E9%A1%B5%E9%9D%A2%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87%E4%B8%8D%E6%98%BE%E7%A4%BA%E7%9A%84%E9%97%AE%E9%A2%98/</url>
     <content><![CDATA[<p>在Hexo部署时，经常会发现文章和页面内插入的本地图片无法显示，通常是使用<code>hexo g</code>生成网页源代码时解析路径出现问题，导致源代码内对文件引用的路径不对。<br><strong>建议使用官方推荐的资源文件夹模式管理本地图片文件（其他文件也可以），配合使用<code>&lt;img scr=&quot;url&quot;&gt;</code>和相对路径的方式插入图片</strong></p>
@@ -68,44 +104,8 @@
       <tags>
         <tag>《营造法式》</tag>
         <tag>斗栱</tag>
+        <tag>宋构</tag>
         <tag>华栱</tag>
-        <tag>宋构</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【枓】三等材栌枓</title>
-    <url>/2024/04/14/%E3%80%90%E6%9E%93%E3%80%91%E4%B8%89%E7%AD%89%E6%9D%90%E6%A0%8C%E6%9E%93/</url>
-    <content><![CDATA[<h3 id="栌枓"><a href="#栌枓" class="headerlink" title="栌枓"></a>栌枓</h3><div class="sketchfab-embed-wrapper"> <iframe title="三等材-栌枓" frameborder="0" width="100%" height=240px allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share width="640" height="480" src="https://sketchfab.com/models/57c0d19d2474447c9a267fa810485e9f/embed?autospin=1&autostart=1&preload=1&ui_theme=dark"> </iframe> </div>
-
-<ul>
-<li>栌枓是铺坐最下层的大斗，安装在柱头之上。（宋以前通常直接安放在柱头之上，宋及以后安装在普拍枋之上，这一特征通常可作为断代标志）<br></li>
-<li>栌枓高20分°，长宽32分°。如果栌枓安装在角柱上，则长宽为36分°。<br></li>
-<li>其中上8分°为枓耳，中4分°为枓平，下8分°为枓欹（qī）。<br></li>
-<li>枓开口宽10分°，深8分°。（如果出跳，则采用十字开口，四个枓耳；若不出跳，则顺着枓身方向（出檐方向）开口，两个枓耳）<br></li>
-<li>枓底部四面个向里杀4分°，斜向内凹1分°<br></li>
-<li>栌枓在出跳方向开口上还留有隔口包耳，隔口包耳高4分°，厚3分°。</li>
-</ul>
-<img  
-                       lazyload
-                       alt="image"
-                       data-src="/2024/04/14/%E3%80%90%E6%9E%93%E3%80%91%E4%B8%89%E7%AD%89%E6%9D%90%E6%A0%8C%E6%9E%93/%E4%B8%89%E7%AD%89%E6%9D%90-%E6%A0%8C%E6%9E%93-%E6%A0%87%E6%B3%A8.png"
-                        class="" title="栌枓"
-                 >
-
-<blockquote>
-<p> 参考资料：</p>
-<p>《营造法式注释（卷上）》，梁思成<br>《&lt;营造法式解读&gt;解读（修订版）》，盘谷西、何建中</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>营造法式</category>
-        <category>枓</category>
-      </categories>
-      <tags>
-        <tag>《营造法式》</tag>
-        <tag>斗栱</tag>
-        <tag>宋构</tag>
-        <tag>栌枓</tag>
       </tags>
   </entry>
   <entry>
@@ -150,12 +150,6 @@
         <tag>宋构</tag>
         <tag>泥道栱</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>测试页</title>
-    <url>/2024/03/07/%E6%B5%8B%E8%AF%95%E9%A1%B5/</url>
-    <content><![CDATA[<h1 id="模型测试"><a href="#模型测试" class="headerlink" title="模型测试"></a>模型测试</h1><p>这个是测试模型</p>
-<iframe title="Character_Refer_Sap" width="100%" height=480px frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/8d697894c4b94712a62b07e37ce3ba63/embed?autospin=1&autostart=1"> </iframe>]]></content>
   </entry>
   <entry>
     <title>【枓】交互枓、齐心枓、散枓</title>
@@ -233,5 +227,11 @@
         <tag>齐心枓</tag>
         <tag>散枓</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>测试页</title>
+    <url>/2024/03/07/%E6%B5%8B%E8%AF%95%E9%A1%B5/</url>
+    <content><![CDATA[<h1 id="模型测试"><a href="#模型测试" class="headerlink" title="模型测试"></a>模型测试</h1><p>这个是测试模型</p>
+<iframe title="Character_Refer_Sap" width="100%" height=480px frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/8d697894c4b94712a62b07e37ce3ba63/embed?autospin=1&autostart=1"> </iframe>]]></content>
   </entry>
 </search>
